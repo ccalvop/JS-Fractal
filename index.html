@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <title>Fractal Web</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
-        #instructions {
-            max-width: 800px;
-            margin: 0 auto;
-            font-size: 14px;
-            line-height: 1.4;
+
+        #canvas-container {
+            display: inline-block;
+            position: relative;
         }
     </style>
-    <title>Random Fractal Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-    <h1>Random Fractal Generator</h1>
-    <script src="js/main.js"></script>
-    <div id="instructions">
-        <p><strong>Instructions:</strong> Click anywhere on the fractal to generate a new random fractal.</p>
-        <p>This interactive fractal generator uses the Mandelbrot set as a base and adds random variations to create unique fractals. The application is developed using Python, Flask, JavaScript, and the p5.js library.</p>
-    </div>
+    <h1>Fractal Web</h1>
+    <div id="canvas-container"></div>
+    <p>
+        This interactive fractal generator uses the Mandelbrot set as a base and adds random variations to create unique fractals.
+        The application is developed using JavaScript and the p5.js library.
+    </p>
+    <p>
+        Click on the fractal to generate a new one with different shapes and colors.
+    </p>
 </body>
 </html>
