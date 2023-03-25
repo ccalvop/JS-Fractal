@@ -2,11 +2,11 @@ JPG
 
 # JS-Fractal
 
-JS-Fractal is a simple web application that generates random interactive fractals using JavaScript and the p5.js library. The fractals are based on the Mandelbrot set with random variations to create unique shapes and colors.
+JS-Fractal is a simple web application that generates random interactive fractals, including Mandelbrot and Julia sets, using JavaScript and the p5.js library. The fractals are created with unique shapes and colors.
 
 ## Features
 
-- Interactive fractal generation
+- Interactive fractal generation (Mandelbrot and Julia sets)
 - Responsive design
 - Built using JavaScript and p5.js
 
@@ -16,7 +16,7 @@ To use the web application, visit the following link:
 
 [https://ccalvop.github.io/JS-Fractal/](https://ccalvop.github.io/JS-Fractal/)
 
-Click on the fractal to generate a new one with different shapes and colors.
+Click on the fractal to generate a new one with different shapes, colors, and types.
 
 ## Project Structure
 
