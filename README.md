@@ -20,18 +20,11 @@ Click on the fractal to generate a new one with different shapes and colors.
 
 ## Project Structure
 
-JS-Fractal/
-│
-├─ index.html # Main HTML file containing the web application layout
-
-├─ js/
-│   └─ main.js # JavaScript file containing the main logic for generating and displaying fractals
-
-│
-└─ README.md # This README file
-
-
-
+- JS-Fractal/
+  - index.html # Main HTML file containing the web application layout
+  - js/
+    - main.js # JavaScript file containing the main logic for generating and displaying fractals
+  - README.md # This README file
 
 ## Built With
 
