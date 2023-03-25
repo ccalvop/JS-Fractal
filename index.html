@@ -2,34 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fractal Web</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
-        }
-
-        #canvas-container {
-            display: inline-block;
-            position: relative;
+            font-family: Arial, sans-serif;
         }
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-    <script src="js/main.js"></script>
 </head>
 <body>
     <h1>Fractal Web</h1>
-    <div id="canvas-container"></div>
-    <p>
-        This interactive fractal generator uses the Mandelbrot set as a base and adds random variations to create unique fractals.
-        The application is developed using JavaScript and the p5.js library.
-    </p>
-    <p>
-        Click on the fractal to generate a new one with different shapes and colors.
-    </p>
+    <p>This interactive fractal generator creates unique fractals based on the Mandelbrot and Julia sets. The application is developed using JavaScript and the p5.js library. Click on the fractal to generate a new one with different shapes, colors, and types.</p>
 </body>
 </html>
