@@ -2,8 +2,6 @@ JPG
 
 # JS-Fractal
 
-![Fractal Web](https://i.imgur.com/4egJN4s.png)
-
 JS-Fractal es una sencilla aplicación web que genera fractales interactivos aleatorios, incluyendo los conjuntos de Mandelbrot y Julia, utilizando JavaScript y la biblioteca p5.js. Los fractales se crean con formas y colores únicos.
 
 ## Características
